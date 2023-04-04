@@ -1,4 +1,5 @@
 import {
+  Copy,
   Laptop,
   LucideProps,
   Moon,
@@ -7,9 +8,21 @@ import {
   type Icon as LucideIcon,
 } from "lucide-react"
 
+import { 
+  FaFileAlt, 
+  FaFileExcel, 
+  FaFilePdf, 
+  FaFileWord 
+} from "react-icons/fa"
+
 export type Icon = LucideIcon
 
 export const Icons = {
+  word: FaFileWord,
+  odt: FaFileAlt,
+  excel: FaFileExcel,
+  pdf: FaFilePdf,
+  copy: Copy,
   sun: SunMedium,
   moon: Moon,
   laptop: Laptop,

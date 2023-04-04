@@ -5,9 +5,7 @@ interface SiteConfig {
   description: string
   mainNav: NavItem[]
   links: {
-    twitter: string
     github: string
-    docs: string
   }
 }
 
@@ -17,13 +15,15 @@ export const siteConfig: SiteConfig = {
     "Beautifully designed components built with Radix UI and Tailwind CSS.",
   mainNav: [
     {
-      title: "Home",
+      title: "首頁",
       href: "/",
     },
+    {
+      title: "轉 Json",
+      href: "/tojson"
+    }
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
-    docs: "https://ui.shadcn.com",
+    github: "https://github.com/exkuretrol"
   },
 }
